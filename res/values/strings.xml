@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">مرسل الرسائل</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="title">مرحبا بك في برنامج مرسل الرسائل</string>
+    <string name="title_activity_delay_msg">شاشة الرسالة</string>
+    <string name="hello_world">hello_world</string>
+
+    <string-array name="repeat_option">
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+    <string name="enableNotification">تفعيل الإشعارات</string>
+    <string name="enableLogging">تفعيل التسجيل</string>
+    <string name="msgHint">الرسالة &#8230;</string>
+    <string name="addHint">الى &#8230;</string>
+    <string name="title_activity_splash">مرسل الرسائل</string>
+    <string name="title_activity_setting">الإعدادات</string>
+    <string name="KEY_ENABLELOGGING">تم تفعيل التسجيل</string>
+    <string name="KEY_ENABLENOTIF">تم تفعيل الإشعار</string>
+    <string name="KEY_SIGNATURE">signat</string>
+    <string name="pref_user_signature">التوقيع</string>
+    <string name="pref_user_signature_summary">اضغط هنا لتعديل التوقيع</string>
+    <string name="pref_enable_notification_summary">سوف يتم تفعيل الإشعارات</string>
+    <string name="pref_enable_notification"> تفعيل الإشعارات</string>
+    <string name="pref_enable_logging_summary">سوف يتم تفعيل التسجيل</string>
+    <string name="pref_enable_logging">تفعيل التسجيل</string>
+    <string name="pref_edittextvalue">تم الإرسال عبر برنامج مرسل الرسائل</string>
+    <string name="title_activity_user_setting">الإعدادات</string>
+
+</resources>

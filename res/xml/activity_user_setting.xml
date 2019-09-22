@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="تحديث الإعدادات" >
+        <EditTextPreference 
+            	android:title="@string/pref_user_signature" 
+            	android:summary="@string/pref_user_signature_summary" 
+            	android:defaultValue="@string/pref_edittextvalue"
+            	android:key="@string/KEY_SIGNATURE"/>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/KEY_ENABLELOGGING"
+            android:summary="@string/pref_enable_logging_summary"
+            android:enabled="true"
+            android:title="@string/pref_enable_logging" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/KEY_ENABLENOTIF"
+            android:summary="@string/pref_enable_notification_summary"
+            android:enabled="true"
+            android:title="@string/pref_enable_notification" >
+        </CheckBoxPreference>
+       
+     </PreferenceCategory>
+</PreferenceScreen>

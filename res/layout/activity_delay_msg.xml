@@ -1,0 +1,113 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.messageexpress.DelayMsgActivity" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/phoneNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/addHint" >
+            </MultiAutoCompleteTextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/b_line" />
+         
+            <LinearLayout
+                android:id="@+id/lrow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+              <!--    <Spinner
+                    android:id="@+id/repeatOption"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:entries="@array/repeat_option" />
+-->
+
+                <CheckBox
+                    android:id="@+id/signatureCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:enabled="true"
+                    android:text="اضافة التوقيع اخر الرسالة" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="يرجى تحديد وقت الإرسال :"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/lrow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/dfield"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:focusable="false" />
+
+                <EditText
+                    android:id="@+id/tfield"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:focusable="false" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/b_line" />
+
+            <EditText
+                android:id="@+id/textMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="@string/msgHint"
+                android:inputType="textMultiLine"
+                android:lines="9" />
+
+            <ImageButton
+                android:id="@+id/delayButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:src="@drawable/delaybutton" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
